@@ -3,7 +3,7 @@
 # Use KEYMAP to specify the default console keymap.  There is a complete tree
 # of keymaps in /usr/share/keymaps to choose from.
 
-KEYMAP="us"
+KEYMAP="es"
 
 
 # Should we first load the 'windowkeys' console keymap?  Most x86 users will
