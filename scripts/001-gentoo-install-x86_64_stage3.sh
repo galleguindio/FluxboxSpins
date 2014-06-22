@@ -111,15 +111,15 @@ download_stage3_files()
 {
 	cd $INSTALL_PATH/;
 	echo -e "${yellowf}Downloading Stage3 Files....${reset}"
-	wget http://gentoo.osuosl.org/releases/amd64/autobuilds/current-stage3/stage3-amd64-20110428.tar.bz2 ;
-	wget http://gentoo.osuosl.org/releases/amd64/autobuilds/current-stage3/stage3-amd64-20110428.tar.bz2.CONTENTS ;
-	wget http://gentoo.osuosl.org/releases/amd64/autobuilds/current-stage3/stage3-amd64-20110428.tar.bz2.DIGESTS ;
+	wget http://gentoo.osuosl.org/releases/amd64/autobuilds/current-stage3-amd64-uclibc-vanilla/stage3-amd64-uclibc-hardened-20140605.tar.bz2 ;
+	wget http://gentoo.osuosl.org/releases/amd64/autobuilds/current-stage3-amd64-uclibc-vanilla/stage3-amd64-uclibc-hardened-20140605.tar.bz2.CONTENTS ;
+	wget http://gentoo.osuosl.org/releases/amd64/autobuilds/current-stage3-amd64-uclibc-vanilla/stage3-amd64-uclibc-hardened-20140605.tar.bz2.DIGESTS ;
 	sleep 2;
 
 	echo -e "${yellowf}Downloading Portage Files....${reset}"
-	wget http://gentoo.osuosl.org/snapshots/portage-latest.tar.bz2 ;
-	wget http://gentoo.osuosl.org/snapshots/portage-latest.tar.bz2.gpgsig ;
-	wget http://gentoo.osuosl.org/snapshots/portage-latest.tar.bz2.md5sum ;
+	wget http://gentoo.osuosl.org/releases/snapshots/current/portage-20140613.tar.bz2 ;
+	wget http://gentoo.osuosl.org/releases/snapshots/current/portage-20140613.tar.bz2.gpgsig ;
+	wget http://gentoo.osuosl.org/releases/snapshots/current/portage-20140613.tar.bz2.md5sum ;
 	sleep 2;
 
 	echo -e "${greenf}MD5SUM Completed....${reset}"
